@@ -1,21 +1,34 @@
-**Sentiment Analysis using NLP**
+# Sentiment Analysis using NLP
 
-This project performs sentiment analysis on user review data using Python and NLP techniques.
+This project performs **sentiment analysis** on user review text data
+using **Natural Language Processing (NLP)** techniques in Python.
+The model predicts whether the sentiment of a given text is **Positive** or **Negative**.
 
- Features
-- Text preprocessing
-- Sentiment classification (Positive / Negative)
-- Excel dataset support
+## Features
+- Text preprocessing (cleaning, tokenization)
+- TF-IDF vectorization
+- Machine Learning based sentiment classification
+- Simple and efficient implementation
 
-Technologies Used
+## Files
+- Mini_Project.py – Main sentiment analysis implementation
+- reviews.xlsx – Dataset used for sentiment analysis
+- README.md – Project documentation
+
+## Technologies Used
 - Python
 - Pandas
-- NLTK / TextBlob (NLP)
-- Machine Learning basics
+- Scikit-learn
+- NLP
 
-Files
-- `Mini Project.py` – main program
-- `reviews.xlsx` – input dataset
+## Project Purpose
+This project is created to:
+- Understand sentiment analysis using NLP
+- Analyze user reviews automatically
+- Apply Machine Learning techniques on text data
 
-Purpose
-Academic mini project to understand sentiment analysis and NLP workflow.
+## How to Run
+1. Install required libraries
+2. Run the Python file:
+   ```bash
+   python Mini_Project.py
